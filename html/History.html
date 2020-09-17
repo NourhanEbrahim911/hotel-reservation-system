@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="navbar">
+        <div class="container">
+          <h2>History</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="single_rooms.html">Rooms</a></li>
+            <li><a href="Restaurant.html">Restaurant</a></li>
+            <li><a href="halls.html">Halls</a></li>
+            <li><a href="GOLF.html">Services</a></li>
+            <li><a href="History.html">History</a></li>
+          </ul>
+        </div>
+      </div>
+       <div class="history-slider">
+        <img id="imging" src="../images/home_images/history/tlchi-exterior-night-1680-945t.jpg"/>
+      </div>
+    </div>
+    <!-- End Header-->
+    <!-- ******************************************************************* -->
+
+    <!--Start History Section-->
+    <div class="commun clear-both">
+      <div class="container">
+        <div class="history-sec1" >
+          <H2>Our Hotel</H2>
+          <hr/>
+          <p>
+          Housed in a 16th-century building that had previously been the site of The Bell pub, it opened on 16 August 1995. Although it originally served food similar to that of a French bistro, it soon acquired a reputation for precision and invention, and has been at the forefront of many modern culinary developments, such as food pairing, flavour encapsulation and multi-sensory cooking.<br>
+          The number of staff in the kitchen has increased from four when it first opened to 42, resulting in a ratio of one kitchen staff member per customer.<br> The restaurant gained its first Michelin star in 1999, its second in 2002 and its third in 2004, making it the fastest in the Middle East to earn three Michelin stars.<br> It lost its status as a three-starred hotel in the 2016 guide due to renovation preventing it from being open for assessment.<br> The restaurant regained three stars in the .following year's Michelin guide.<br>
+          The Hotel is known for its fourteen-course tasting menu featuring dishes such as nitro scrambled egg and bacon ice cream, an Alice in Wonderland inspired mock turtle soup involving a bouillon packet made up to look like a fob watch dissolved in tea, and a dish called Sound of the Sea which includes an audio element. The Hotel has an associated laboratory where Blumenthal and his team develop new dish concepts.<br>
+          In 2009 the Hotel suffered from the largest norovirus outbreak ever documented at a hotel with over 400 diners falling unwell.<br>
+          </p>
+        </div>
+        <div class="history-img1">
+          <img src="../images/home_images/history/guest-services.jpg"/>
+        </div>
+        <div class="history-img2">
+          <img src="../images/home_images/history/promotional.jpg"/>
+        </div>
+      </div>
+    </div>
+
+     <!--End History Section-->
+     <!-- ******************************************************************* -->
+     <!-- Start Footer Section-->
+    <div class="footer clear-both">
+      <div class="container">
+        <form>
+          <div class="form">
+            <div class="first">
+              <label>Name *</label>
+              <input type="text" name="user-name"/>
+              <label>Email *</label>
+              <input type="email" name="mail"/>
+              <label>Subject</label>
+              <input type="text" name="subject"/>
+            </div>
+            <div class="first">
+              <label>Your Comment *</label>
+              <textarea></textarea>
+              <input type="submit" value="send"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Footer Section-->
+    <script language="javascript" type="text/javascript">
+     var images = new Array()
+     images[0] = "../images/home_images/history/Hotel-reception-bell.jpg";
+     images[1] = "../images/home_images/history/club_room_hotel_arts_barcelona.jpg";
+     images[2] = "../images/home_images/history/ky-thuat-trai-drap_1.jpg";
+     images[3] = "../images/home_images/history/tlchi-exterior-night-1680-945t.jpg";
+
+     setInterval("changeImage()", 4000);
+     var x=0;
+
+     function changeImage()
+     {
+                document.getElementById("imging").src=images[x]
+                x++;
+                if (images.length == x)
+                {
+                    x = 0;
+                }
+     }
+   </script>
+    </body>
+    </html>

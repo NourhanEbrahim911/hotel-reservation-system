@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../CSS/bootstrap.css"/>
+    <link rel="stylesheet" href="../CSS/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="../CSS/contact.css"/>
+  </head>
+  <body>
+    <div class="form" id="login-form">
+      <div class="container">
+        <button class="text-center btn btn-link" id="first" onclick="loginForm();">Login</button>
+        <button class="text-center btn btn-link" id="second" onclick="signForm();">Sign In</button>
+        <form method="post" class="text-center">
+          <i class="fas fa-user"></i>
+          <input class="form-control" type="text" name="user-name" placeholder="Enter User Name"/>
+          <i class="fas fa-unlock-alt"></i>
+          <input class="form-control" type="password" name="password" placeholder="Enter Password"/>
+          <input type="submit" value="login" class="btn btn-danger"/>
+        </form>
+      </div>
+    </div>
+    <div class="sign-in" id="sign-form">
+      <div class="container">
+        <button class="text-center btn btn-link"  onclick="loginForm();">Login</button>
+        <button class="text-center btn btn-link"  onclick="signFom();">Sign In</button>
+        <form method="post" class="text-center">
+          <i class="far fa-edit" style="left:3%;top:10%;"></i>
+          <input class="form-control f-name-l" type="text" name="fname" placeholder="First Name"/>
+          <input class="form-control f-name-l" type="text" name="lname" placeholder="Last Name"/>
+          <i class="fas fa-user" style="left:2%;top:22%;"></i>
+          <input class="form-control" type="text" name="username" placeholder="User Name"/>
+          <i class="fas fa-envelope" style="left:2%;top:34%;"></i>
+          <input class="form-control" type="email" name="email" placeholder="Enter valid Email"/>
+          <i class="fas fa-unlock-alt" style="left:2%;top:46%;"></i>
+          <input class="form-control" type="password" name="password" placeholder="Enter Password"/>
+          <i class="far fa-calendar-alt" style="left:2%;top:57%"></i>
+          <input class="form-control" type="number" name="age" placeholder="Your Age"/>
+          <input class="" type="radio" name="gender"/>Female
+          <input class="" type="radio" name="gender"/>Male
+          <br/>
+          <input class="" type="checkbox" name="rememberMe"/>Remember Me
+          <br/>
+          <input type="submit" value="SignUp" class="btn btn-danger" style="margin-top:10px;"/>
+        </form>
+      </div>
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

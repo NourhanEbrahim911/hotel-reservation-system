@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> GYM </title>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+  </head>
+  <body>
+  <!-- Start Header -->
+    <div class="header">
+      <div class="navbar">
+        <div class="container">
+          <h2>Home</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="GOLF.html">Golf</a></li>
+            <li><a href="hotelGym.html">GYM</a></li>
+            <li><a href="spa.html">Other Services</a></li>
+            <li><a href="History.html">History</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Header-->
+    <!-- ******************************************************************* -->
+    <!-- button action to form page -->
+    <div class="div2">
+      <h2 class="m">OUR MASSTION</h2>
+      <hr/>
+      <p class="motivate">NO PAIN<br/>NO GAIN<br/>Let's Train<br/>Lose Your Weight<br/>Build Your Six Pack
+      </p>
+    </div>
+    <div class="video">
+      <video class="video1" autoplay>
+          <source src="../images/services-images/gym/Leader.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="div3">
+      <p  class="about">OUR CLASSES MAKE U DEFFERENT<br/>You Can Join ONE OR MORE<br/>Machine<br/>Zumba<br/>Yoga<br/>Boxing
+      </p>
+      <div class="slideshow-container" style="margin-bottom:100px;">
+        <div class="mySlides">
+          <img src="../images/services-images/gym/machine.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="../images/services-images/gym/zumba.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="../images/services-images/gym/boxing.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="../images/services-images/gym/WOMEN-YOGA.jpg" style="width:100%">
+        </div>
+        <br>
+      </div>
+  <!-- Start Footer Section-->
+    <div class="footer">
+      <div class="container">
+        <form>
+          <div class="form">
+            <div class="first">
+              <label>Name *</label>
+              <input type="text" name="user-name"/>
+              <label>Email *</label>
+              <input type="email" name="mail"/>
+              <label>Subject</label>
+              <input type="text" name="subject"/>
+            </div>
+            <div class="first">
+              <label>Your Comment *</label>
+              <textarea></textarea>
+              <input type="submit" value="send"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Footer Section-->
+    <script>
+      var slideIndex = 0;
+         showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body{
+  background-image: url('../images/home_images/login.jpg');
+  background-size: cover;
+}
+.form{
+  background-color: #f3f4f5;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  border-radius: 30px;
+  opacity: 0.7;
+}
+.form h1{
+  font-size: 30px;
+  color: #f77cad;
+  font-family: cursive;
+  margin: 40px;
+  margin-bottom: 40px;
+}
+.form h1:first-of-type{
+  float: left;
+}
+.form h1:last-of-type{
+  float: right;
+}
+.form form{
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 40px;
+  position: relative;
+}
+.form form i:first-of-type{
+  position: absolute;
+  left: 5%;
+  top: 19%;
+}
+.form form i:last-of-type{
+  position: absolute;
+  left: 5%;
+  top: 43%;
+}
+form input{
+  margin-bottom: 30px;
+}
+/* --------------------------------------------------- */
+/* Start Sign In */
+.sign-in{
+  background-color: #f3f4f5;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  border-radius: 30px;
+  opacity: 0.7;
+  display: none;
+}
+.sign-in .f-name-l{
+  width: 48%;
+  float: left;
+  margin-left: 5px;
+}
+.sign-in form{
+  max-width: 450px;
+  margin: 8px auto;
+  padding: 30px;
+  position: relative;
+}
+.sign-in form i{
+  position: absolute;
+}
+.sign-in form input{
+  margin-bottom: 12px;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Register</title>
+      <link rel="stylesheet" href="../CSS/style.css"/>
+  </head>
+  <body>
+<!-- Start Header -->
+    <div class="header">
+      <div class="navbar registeNav">
+        <div class="container">
+          <h2>Home</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><button onclick="bookRoom();" id="room-B">booking Room</button></li>
+            <li><button id="rest-B" onclick="bookRest();">booking Restaurant</button></li>
+            <li><button id="hall-B" onclick="bookHall();">booking Hall</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Header-->
+    <!-- ******************************************************************* -->
+    <!--form Room Registe -->
+
+    <div class="form-registe" id="Broom">
+      <center>
+        <form action="#" method="post">
+        	<div class="first">
+        		<div class="details">
+        			<label>Name * </label>
+        		  <div class="nam">
+        			  <input type="text" name="First name" placeholder="First Name"/>
+        		  </div>
+        		  <div class="nam1">
+        		    <input type="text" name="Last name" placeholder="Last Name"/>
+        		  </div>
+        	</div>
+        </div>
+				<div class="main2">
+					<div class="details">
+						<label>E-mail * </label>
+				    <input type="email" name="Email" placeholder="ex : myname@gmail.com"/>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="details">
+						<label>Room Type</label>
+						<select class="rtype" name="rtype"/>
+							<option value=" ">None</option>
+							<option value="rtype1">Single Room</option>
+							<option value="rtype2">Double Room</option>
+							<option value="rtype3">Trible Room</option>
+						</select>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					<label>Check In & Out Date *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker" name="Text" type="text" placeholder="mm/dd/yyyy --- mm/dd/yyyy "/>
+						</div>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					  <label>Visa Number *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker1" name="Text" type="text" placeholder="Visa Number"/>
+						</div>
+					</div>
+				</div>
+				<div class="email">
+					<div class="button">
+						<input type="submit" value="Book Now">
+          </div>
+         </div>
+        </form>
+      </center>
+    </div>
+    <!-- End Room Register Form -->
+
+    <!-- Start Rest Registe Form -->
+    <div class="form-registe" id="Brest" style="display:none">
+      <center>
+        <form action="#" method="post">
+        	<div class="first">
+        		<div class="details">
+        			<label>Name * </label>
+        		  <div class="nam">
+        			  <input type="text" name="First name" placeholder="First Name"/>
+        		  </div>
+        		  <div class="nam1">
+        		    <input type="text" name="Last name" placeholder="Last Name"/>
+        		  </div>
+        	</div>
+        </div>
+				<div class="main2">
+					<div class="details">
+						<label>E-mail * </label>
+				    <input type="email" name="Email" placeholder="ex : myname@gmail.com"/>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="details">
+						<label>Guest's Number </label>
+						<select class="rtype" name="rtype"/>
+							<option value=" ">01</option>
+							<option value="rtype1">02</option>
+							<option value="rtype2">03</option>
+							<option value="rtype3">04</option>
+              <option value="rtype3">05</option>
+              <option value="rtype3">06</option>
+						</select>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					<label>Check In Date *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker" name="Text" type="text" placeholder="mm/dd/yyyy"/>
+						</div>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					  <label>Check In Time *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker1" name="Text" type="time"/>
+						</div>
+					</div>
+				</div>
+				<div class="email">
+					<div class="button">
+						<input type="submit" value="Book Now">
+          </div>
+         </div>
+        </form>
+      </center>
+    </div>
+    <!-- End Rest Registe Form -->
+
+    <!-- Start Hall Registe Form -->
+    <div class="form-registe" id="Bhall" style="display:none">
+      <center>
+        <form action="#" method="post">
+        	<div class="first">
+        		<div class="details">
+        			<label>Name * </label>
+        		  <div class="nam">
+        			  <input type="text" name="First name" placeholder="First Name"/>
+        		  </div>
+              <div class="nam1">
+        		    <input type="text" name="Last name" placeholder="Last Name"/>
+        		  </div>
+        	</div>
+        </div>
+				<div class="main2">
+					<div class="details">
+						<label>E-mail * </label>
+				    <input type="email" name="Email" placeholder="ex : myname@gmail.com"/>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="details">
+						<label>Hall Type</label>
+						<select class="rtype" name="rtype"/>
+							<option value=" ">BirthDay</option>
+							<option value="rtype1">Wedding</option>
+						</select>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					<label>Guest's Number *</label>
+          <select class="rtype" name="rtype"/>
+            <option value=" ">50</option>
+            <option value="rtype1">50 / 100</option>
+            <option value="rtype1">100 / 250</option>
+            <option value="rtype1">250 / 500</option>
+            <option value="rtype1">More Than 500</option>
+          </select>
+					</div>
+				</div>
+				<div class="check">
+					<div class="details">
+					  <label>Check In Date *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker1" name="Text" type="text" placeholder="mm/dd/yyyy"/>
+						</div>
+					</div>
+				</div>
+        <div class="check">
+					<div class="details">
+					  <label>Check In Time *</label>
+						<div class="checktime">
+							<input class="date" class="datepicker1" name="Text" type="time"/>
+						</div>
+					</div>
+				</div>
+				<div class="email">
+					<div class="button">
+						<input type="submit" value="Book Now">
+          </div>
+         </div>
+        </form>
+      </center>
+    </div>
+    <!-- End Hall Registe Form -->
+
+	<!-- Start Footer Section-->
+    <div class="footer">
+      <div class="container">
+        <form>
+          <div class="form">
+            <div class="first">
+              <label>Name *</label>
+              <input type="text" name="user-name"/>
+              <label>Email *</label>
+              <input type="email" name="mail"/>
+              <label>Subject</label>
+              <input type="text" name="subject"/>
+            </div>
+            <div class="first">
+              <label>Your Comment *</label>
+              <textarea></textarea>
+              <input type="submit" value="send"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Footer Section-->
+    <script src="../js/index.js"></script>
+  </body>
+</html>

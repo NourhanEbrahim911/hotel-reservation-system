@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halls</title>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+      <title>Halls</title>
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="navbar">
+        <div class="container">
+          <h2>Home</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="single_rooms.html">Rooms</a></li>
+            <li><a href="Restaurant.html">Restaurant</a></li>
+            <li><a href="halls.html">Halls</a></li>
+            <li><a href="GOLF.html">Services</a></li>
+            <li><a href="History.html">History</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Header-->
+    <!-- ******************************************************************* -->
+    <!-- Start Halls Section -->
+
+
+        <div class="slideshowContainer">
+          <h2> Have a closer look at our Halls!</h2>
+        </div>
+        <div class="display-container clear-both">
+          <div class="container">
+            <img class="mySlides" src="../images/restaurants-images/halls/slider7.jpg">
+            <img class="mySlides" src="../images/restaurants-images/halls/halls3.jpg">
+            <img class="mySlides" src="../images/restaurants-images/halls/halls5.JPG">
+            <img  class="mySlides" src="../images/restaurants-images/halls/halls6.jpg">
+            <div class="slidebuttons">
+              <div class="leftButton hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+              <div class="rightButton hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            </div>
+          </div>
+        </div>
+        <div class="responsive clear-both">
+          <div class="container">
+            <div class="gallery">
+                <a target="_blank" href="../images/restaurants-images/halls/halls6.jpg">
+                  <img src="../images/restaurants-images/halls/halls6.jpg">
+                </a>
+                <div class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+                <form action="register.html">
+                  <input class="MyButton" type="submit" value="Book Now!"/>
+                </form>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="../images/restaurants-images/halls/halls5.jpg">
+                  <img src="../images/restaurants-images/halls/halls5.jpg">
+                </a>
+                <div  class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+                <form action="register.html">
+                  <input class="MyButton" type="submit" value="Book Now!"/>
+                </form>
+              </div>
+              <div class="gallery">
+                <a  target="_blank" href="../images/restaurants-images/halls/halls3.jpg">
+                  <img src="../images/restaurants-images/halls/halls3.jpg">
+                </a>
+                <div class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+                <form action="register.html">
+                  <input class="MyButton" type="submit" value="Book Now!"/>
+                </form>
+             </div>
+             <div class="gallery">
+                <a target="_blank" href="../images/restaurants-images/halls/halls4.jpg">
+                  <img src="../images/restaurants-images/halls/halls4.jpg">
+                </a>
+                <div class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+                <form action="register.html">
+                  <input class="MyButton" type="submit" value="Book Now!"/>
+                </form>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="../images/restaurants-images/halls/halls2.JPG">
+                  <img src="../images/restaurants-images/halls/halls2.JPG">
+                </a>
+                <div class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+                <form action="register.html">
+                  <input class="MyButton" type="submit" value="Book Now!"/>
+                </form>
+            </div>
+            <div class="gallery">
+              <a target="_blank" href="../images/restaurants-images/halls/halls1.jpg">
+                <img src="../images/restaurants-images/halls/halls1.jpg">
+              </a>
+              <div class="desc">The first hall is very elegant and unique, you can find yourself slipping into another timeline while looking at it.</div>
+              <form action="register.html">
+                <input class="MyButton" type="submit" value="Book Now!"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      <!-- Start Footer Section-->
+    <div class="footer">
+      <div class="container">
+        <form>
+          <div class="form">
+            <div class="first">
+              <label>Name *</label>
+              <input type="text" name="user-name"/>
+              <label>Email *</label>
+              <input type="email" name="mail"/>
+              <label>Subject</label>
+              <input type="text" name="subject"/>
+            </div>
+            <div class="first">
+              <label>Your Comment *</label>
+              <textarea></textarea>
+              <input type="submit" value="send"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Footer Section-->
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>

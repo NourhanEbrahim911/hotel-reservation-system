@@ -1,0 +1,567 @@
+.container{ width: 1170px;margin: auto;}
+.clear-both{clear: both;}
+body{margin: 0}
+/* -------------------------------------------------- */
+/* Start Header Section */
+.header{overflow: hidden;}
+.header .navbar{border-bottom: 1px solid #75c6cf;
+  width: 100%;height: 90px;
+  background-color: #f8f8f8;position: fixed;
+  z-index: 2;overflow: hidden;}
+.header .navbar h2{float: left;font-size: 30px;
+  font-family: sans-serif;color: #f77cad;margin-top: 30px;}
+.header .navbar ul{list-style: none;float: right;margin-top: 26px;overflow: hidden;}
+.header .navbar ul li{float: left;padding: 10px;font-family: Tahoma;margin-bottom: 10px;}
+.header .navbar ul li a{text-decoration: none;color: #000}
+.header .navbar ul li a:hover{color: #f77cad;opacity: 0.8;}
+.header .slider{overflow: hidden;}
+.header .slider .our-hotel{margin-top: 200px;overflow: hidden;}
+.header .slider .our-hotel .first{width: 46%;margin-right: 4%;float: left;}
+.header .slider .our-hotel .first img{width: 100%;height: 650px;border-radius: 10px;}
+.header .slider .our-hotel .second{width: 47%;margin-left: 3px;float: left;overflow: hidden;}
+.header .slider .our-hotel .second .part1{height: 320px;overflow: hidden;}
+.header .slider .our-hotel .second .part1 img{width: 100%;height: 300px;border-radius: 10px;}
+.header .slider .our-hotel .second .part2{height: 350px;}
+.header .slider .our-hotel .second .part2 div{width: 48%;margin-right: 5px;margin-left: 5px;float: left;}
+.header .slider .our-hotel .second .part2 div img{width: 100%;height: 330px;border-radius: 10px;}
+/* End Header Section */
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* Start Home Rooms Section */
+.rooms{margin-top: 40px;margin-bottom: 80px;overflow: hidden;}
+.rooms .room-intro{text-align: center;overflow: hidden;}
+.rooms .room-intro h2{font-size: 50px;font-family: Tahoma;color: #f77cad;}
+.rooms .room-intro hr{width: 540px;height: 2px;background-color: #75c6cf;border: 0;}
+.rooms .room-intro p{
+  line-height: 1.8;font-size: 20px;
+  font-family: sans-serif;color: #6f6f6f;
+  margin-top: 30px;margin-bottom: 30px;
+}
+.rooms .room-type{overflow: hidden;}
+.rooms .room-type .types{width: 33.333333%;text-align: center;
+  float: left;overflow: hidden;
+}
+.rooms .room-type .types img{
+  width: 95%;height: 350px;
+  border: 2px solid #75c6cf;padding: 3px;
+}
+.rooms .room-type .types h2{font-size: 30px;font-family: sans-serif;color: #f77cad;}
+.rooms .room-type .types p{
+  line-height: 1.7;font-size: 20px;
+  font-family: sans-serif;color: #6f6f6f;
+  margin-bottom: 20px;margin-top: 5px;
+}
+.rooms .room-type .types button{
+  background-color: #fff;border: 2px solid #75c6cd;
+  border-radius: 20px;padding: 10px 20px;
+}
+.rooms .room-type .types button a{
+  text-decoration: none;color: #75c6cd;
+  font-size: 20px;font-family: sans-serif;
+}
+/* End Home Rooms Section */
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/*Start Home Restaurant Section */
+.restaurant{margin-bottom: 80px;overflow: hidden;}
+.restaurant .info{text-align: center;overflow: hidden;}
+.restaurant .info h2{font-size: 45px;font-family: Tahoma;color: #f77cad;}
+.restaurant .info hr{width: 540px;height: 2px;background-color: #75c6cf;border: 0;}
+.restaurant .info p{
+  line-height: 1.8;font-size: 20px;
+  font-family: sans-serif;color: #6f6f6f;
+  margin-top: 30px;margin-bottom: 30px;
+}
+.restaurant .rest{border-radius: 25px;overflow: hidden;}
+.restaurant .rest div{
+  width: 50%;height: 250px;
+  background-color: #f8f8f8;
+  float: left;overflow: hidden;
+}
+.restaurant .rest div h3{
+  font-size: 30px;font-family: sans-serif;
+  color: #f77cad;text-align: center;
+}
+.restaurant .rest div p{
+  line-height: 1.8;font-size: 18px;
+  font-family: sans-serif;
+  color: #6f6f6f;margin-top: 30px;
+  margin-bottom: 30px;text-align: center;
+}
+.restaurant .rest div button{
+  background: none;border: 0;
+  padding: 10px 20px;float: right;
+}
+.restaurant .rest div button a{text-decoration: none;color: #f77cad;font-size: 18px;font-family: cursive;}
+.restaurant .rest div button a:hover{border-bottom: 2px solid #f77cad;}
+.restaurant .rest div img{width: 100%;height: 250px;}
+/*End Home Restaurant Section */
+
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* Start Home Services Section */
+.services{margin-bottom: 80px;overflow: hidden;}
+.services .service-intro{text-align: center; overflow: hidden;}
+.services .service-intro h2{font-size: 45px;font-family: Tahoma;color: #f77cad;}
+.services .service-intro hr{width: 540px;height: 2px;background-color: #75c6cf;border: 0;}
+.services .service-intro p{
+  line-height: 1.8;font-size: 20px;
+  font-family: sans-serif;color: #6f6f6f;
+  margin-top: 30px;margin-bottom: 30px;
+}
+.services .buttons{text-align: center;margin-bottom: 25px;overflow: hidden;}
+.services .buttons .my-button{
+  background: none;color: #777;
+  border: 2px solid #EEE;
+  padding: 10px 30px;font-family: Tahoma;
+  font-size: 18px;margin-right: 20px;
+}
+.services .buttons .my-button a{text-decoration: none;color: #777;}
+.services .buttons .my-button:hover{background-color: #75c6cd;border: 0;}
+.services .buttons .my-button:hover a{color: #fff;}
+.services .buttons .active{background-color: #75c6cd;color: #fff;border: 1px solid #75c6cd;}
+.services .ser-images{margin-top: 20px;margin-bottom: 50px;overflow: hidden;}
+.services .ser-images img{width: 25%;height: 230px;float: left;}
+/* End Home Services Section */
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* Start Our Happy Clients Section */
+.our-client{margin-bottom: 100px;overflow: hidden;}
+.our-client .client-intro{text-align: center;margin-bottom: 50px;overflow: hidden;}
+.our-client .client-intro h3{margin-top: 0;font-size: 40px;font-family: Tahoma;color: #f77cad;}
+.our-client .client-intro hr{
+  width: 540px;height: 2px;
+  background-color: #75c6cf;border: 0;
+}
+.our-client .client-intro p{
+  font-size: 20px;font-family: Tahoma;
+  color: #7f7f7f;line-height: 1.4;
+}
+.our-client .comments{overflow: hidden;}
+.our-client .comments div{
+  width: 47%;margin-right: 3%;
+  float: left;text-align: center;
+  padding: 30px 50px;box-sizing: border-box;
+  background-color: #f3f4f5;border-radius: 5px;
+  overflow: hidden;
+}
+.our-client .comments div p{
+  color: #7f7f7f;font-size: 20px;
+  font-family: Tahoma;line-height: 1.6;
+}
+.our-client .comments div h3{
+  font-size: 22px;
+  font-weight: lighter;font-family: monospace;
+  color: #484949;margin-top: 40px;
+}
+.our-client .comments .click{margin-top: 10px;background: none;width: 100%;overflow: hidden;}
+.our-client .comments .click button{
+  background: none;border: 2px solid #75c6cd;
+  padding: 5px 8px;cursor: pointer;
+  color: #75c6cd;font-size: 20px;
+}
+/* End Our Happy Clients Section */
+
+/* ------------------------------------------------- */
+/*-------------------------------------------------- */
+/*Start Single Rooms Page */
+/*Slider*/
+.single-slider{width:100%;height: 550px;overflow: hidden;margin: 90px 0 120px 0;}
+.single-slider img{height: auto; width:inherit;}
+.single-slider .abs{
+  height: 150px;position: absolute;width: 600px;
+  margin: 170px 0 0 400px;
+  text-align: center;z-index: 1;
+}
+.single-slider .abs h1{font-family: Tahoma;
+  font-size: 70px;color: #f77cad;
+  text-shadow: 5px 5px 5px #fff,-5px -5px 5px #fff;
+}
+/*End Slider*/
+/*Single room style*/
+.single-rooms{height: 500px; margin:60px 0 60px 0;overflow: hidden;}
+.single-rooms .text{
+  background-color: #fff;height: 400px;width: 600px;float: right;
+  position: absolute;z-index: 1;margin: 40px 0 0 540px;
+  box-shadow: 5px 5px 4px #e6e6e6, 0px -5px 4px #e6e6e6;
+}
+.single-rooms .img{height: 440px;width: 550px;float: left;margin: 20px 0 20px 20px;}
+.single-rooms .img img{height: inherit;width: inherit}
+.single-rooms .text h1{font-family: Tahoma;color: #4d4d4d;margin-left: 50px;float: left;}
+.single-rooms .text h2{font-family: Tahoma;color: #f77cad;float: right;margin-right: 50px;}
+.single-rooms .text hr{margin-top: 8px; width: 500px;border: 1px solid #75c6cd;}
+.single-rooms .text p{margin: 0 50px 0 50px;
+  font-family: Tahoma;font-size: 14px;
+  color: #7f7f7f;line-height: 1.3;
+}
+.single-rooms .text pre{margin: 30px 0px 0 4px;line-height: 8px}
+.single-rooms .text pre p{
+  font-family: Tahoma;font-size: 14px;
+  font-weight: bold;color: #f77cad
+}
+.single-rooms .text button{
+  margin-right: 30px;padding: 5px 10px ;
+  text-decoration: none;color:#f77cad;
+  border: 1px solid #f77cad;font-size: 20px;
+  font-family: Tahom;background-color: #fff;
+  height: 50px;width: 150px;
+  transform .3s;float: right;
+}
+.single-rooms .text button:hover{
+  color: #fff;background-color: #f77cad;
+  cursor: pointer;transform:scale(1.1);
+}
+.single-rooms .text a{text-decoration: none}
+/*End Room Style*/
+/*End  Single Rooms Page*/
+
+/* --------------------------------------------------- */
+/*---------------------------------------------------- */
+/*Start Double Rooms Page*/
+/*Start Slider */
+.double-slider{width:100%;height: 600px;margin-bottom: 100px;overflow: hidden;}
+.double-slider img{height: auto; width:inherit;}
+.double-slider .abs{
+  height: 100px;position: absolute;
+  width: 600px;top: 40%;left: 28%;
+  text-align: center;z-index: 1;
+  border: solid 4px #fff;overflow: hidden;
+}
+.double-slider .abs h1{
+  font-family: Tahoma;font-size: 60px;
+  color: #f77cad;margin-top:10px;
+  text-shadow: 5px 5px 5px #fff,-5px -5px 5px #fff;
+}
+/*End Slider*/
+/*Start Double Room Syle*/
+.double-rooms, .double-rooms2{height: 470px;margin:10px 0 60px 0;overflow: hidden;}
+.double-rooms:hover, .double-rooms2:hover{box-shadow: 5px 5px 4px #e6e6e6, -5px -5px 4px #e6e6e6;background-color: #fff}
+.double-rooms .text{height: 420px;width: 540px;float: right;margin: 20px 40px 0 0px;}
+.double-rooms .img{height: 420px;width: 540px;
+  float: left;margin: 20px 0 20px 10px;
+  box-shadow: 5px 5px 4px #e6e6e6, -5px -5px 4px #e6e6e6;
+  background-color: #fff;
+}
+.double-rooms .img img,
+.double-rooms2 .img img{height: 40;width: inherit;margin: auto;height: inherit}
+.double-rooms .text h1,
+.double-rooms2 .text h1{font-family: Tahoma;color: #4d4d4d;margin-left: 50px;float: left}
+.double-rooms .text h2,
+.double-rooms2 .text h2{font-family: Tahoma;color: #f77cad; float: right; margin-right: 50px;}
+.double-rooms .text hr,
+.double-rooms2 .text hr{margin-top: 8px; width: 500px;border: 1px solid #75c6cd;}
+.double-rooms .text p,
+.double-rooms2 .text p{margin: 0 50px 0 50px; font-family: Tahoma;font-size: 14px;color: #7f7f7f;line-height: 1.3;}
+.double-rooms .text pre,
+.double-rooms2 .text pre{margin: 30px 0px 0 4px;}
+.double-rooms .text pre p,
+.double-rooms2 .text pre p{font-family: Tahoma;font-size: 14px;font-weight: bold;color: #f77cad }
+.double-rooms .text button,
+.double-rooms2 .text button{
+  margin-left: 205px;padding: 5px 10px;
+  text-decoration: none;color:#f77cad;
+  border: 1px solid #f77cad;font-size: 20px;
+  font-family: Tahom;background-color: #fff;
+  height: 50px;width: 150px;transform .3s;
+}
+.double-rooms .text button:hover,
+.double-rooms2 .text button:hover{color: #fff; background-color: #f77cad; cursor: pointer;transform:scale(1.1)}
+.double-rooms2 .text{height: 420px; width: 540px;float: left;margin: 20px 40px 0 0px;}
+.double-rooms2 .img{height: 420px;width: 540px;
+  float: right;margin: 20px 0 20px 10px;
+  box-shadow: 5px 5px 4px #e6e6e6, -5px -5px 4px #e6e6e6;
+}
+.double-rooms2 .text a{text-decoration: none}
+/* End Double Room Style*/
+/*End Double Room Page*/
+
+/*-------------------------------------------------- */
+/*-------------------------------------------------- */
+/* Start Triple Room Page*/
+/* Start slider */
+.triple-slider{width:100%; height: 600px;margin-bottom: 100px;overflow: hidden; }
+.triple-slider img{height: 100%; width:inherit;}
+.triple-slider .abs{height: 100px;position: absolute; width: 600px;top: 42%;left: 28%; text-align: center;z-index: 1;border: solid 4px #fff;overflow: hidden}
+.triple-slider .abs h1{font-family: Tahoma;font-size: 60px;color: #f77cad; text-shadow: 5px 5px 5px #fff,-5px -5px 5px #fff;margin-top:10px}
+/* End slider */
+/* Start Triple Room Style*/
+.triple-room{height: 1760px; margin:10px 0 60px 0;overflow: hidden;background-color: #fff;text-align: cente}
+.triple-room .rooms{height: 760px;width:507px; margin:60px 0px 30px 50px;overflow: hidden;float:left;box-shadow: 5px 5px 4px #e6e6e6, -5px -5px 4px #e6e6e6;background-color: #fff;transform .3s;}
+.triple-room .rooms:hover{transform:scale(1.1);box-shadow: 5px 5px 4px  #ffe6e6, -5px -5px 4px  #ffe6e6;}
+.triple-room .rooms .text{height: 400px; width: 507px;margin: 0 0 0 1px;background-color: #fff}
+.triple-room .rooms .img{height: 290px;width: 507px;margin: 5px 0 0 0;background-color: #fff}
+.triple-room .rooms .img img{height: inherit;width: inherit}
+.triple-room .rooms .text h1{font-family: Tahoma;color: #4d4d4d;margin-left: 50px;float: left}
+.triple-room .rooms .text h2{font-family: Tahoma;color: #f77cad; float: right; margin-right: 50px;}
+.triple-room .rooms .text hr{margin-top: 8px; width: 450px;border: 1px solid #75c6cd;}
+.triple-room .rooms .text p{margin: 0 50px 0 50px; font-family: Tahoma;font-size: 14px;line-height: 1.5;color: #7f7f7f;}
+.triple-room .rooms .text .services{font-family: Tahoma;font-size: 14px;font-weight: bold;color: #f77cad;margin-left: 50px }
+.triple-room .rooms .text button{margin: 30px 0 0 178px;padding: 5px 10px ; text-decoration: none; color:#f77cad; border: 1px solid #f77cad; font-size: 20px; font-family: Tahom; background-color: #fff; height: 50px; width: 150px;transform .3s;}
+.triple-room .rooms .text button:hover{ color: #fff; background-color: #f77cad; cursor: pointer;transform:scale(1.1)}
+.triple-room .rooms .text a{text-decoration: none}
+/*End Triple Style*/
+/* End Triple Room Page*/
+
+/*-------------------------------------------------- */
+/*-------------------------------------------------- */
+/* Start Restaurant Page*/
+/*Slider*/
+.header .rest-slider{overflow: hidden;}
+.header .rest-slider img{height: 550px;width: 100%;}
+/*End Slider */
+/*Start Restaurant Style*/
+.commun-res{height: 2400px;text-align: center;}
+.commun-res p{line-height: 1.8;font-size: 20px;
+  font-family: Tahoma;color:#7f7f7f;
+  margin-top: 30px;margin-bottom: 30px;
+  margin-left: 18px;text-align: center;
+}
+.commun-res h2{color: #f77cad;margin-left: 30px;text-align: center;}
+.restaurant-sec1{float: right;height: auto;
+  box-shadow: 25px 25px 10px -15px #aaaaaa;margin-right: 40px;
+  border:1px solid #75c6cf;margin-top: 100px;
+}
+.res-img1 img{width:800px;height:400px;padding-top: 45px;padding-left: 30px;}
+.restaurant-sec1 button{color: #f77cad;border-radius: 15px;
+  margin: 20px 0 40px 30px;width:200px;
+  height: 67px;padding: 10px 20px;
+  background-color: #fff;border: 2px solid #f77cad;
+  font-size: 20px;font-family: Tahoma;
+}
+.restaurant-sec1 button a{text-decoration: none;color: #f77cad}
+.restaurant-sec1 button:hover,.restaurant-sec1 button:hover a{background-color: #f77cad;color: #fff;}
+div.polaroid {width: 284px;padding: 20px;margin-top: 150px;
+  border: 2px solid #75c6cf;background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+div.polaroid img,div.pola img{width: 284px;height: 213px;}
+div.rotate_right {float: left;
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);margin-left: 300px;
+}
+div.rotate_left {float: left;
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+div.pola {width: 284px;padding: 20px;margin-top: 150px;border: 2px solid #75c6cf;
+  background-color: white;box-shadow: 10px 10px 5px #aaaaaa;
+}
+div.rotate_right1 {float: left;
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);margin-left: 300px;
+}
+div.rotate_left1 {float: left;
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+/*End Restaurant Style*/
+/*End Restaurant Page*/
+
+/* ------------------------------------------------- */
+/*-------------------------------------------------- */
+/* Start Halls Page*/
+.slideshowContainer{margin-top: 120px;margin-bottom: 20px;overflow: hidden;}
+.slideshowContainer h2{color: #f77cad;font-family:Tahoma;font-size: 25px;text-align: center;}
+.responsive{margin-top: 50px;margin-bottom: 100px;overflow: hidden;}
+.responsive .gallery{float: left;margin-right: 12px;margin-bottom: 40px;border: 1px solid #ccc;width: 32%;height: 570px;overflow: hidden;}
+.responsive .gallery a img{width: 100%;height: 400px;}
+.responsive .gallery:hover{border: 1px solid #75c6cf}
+.responsive .desc {color: #7f7f7f;font-family: Tahoma;font-size: 18px; line-height: 1.3;text-align: center;}
+.responsive form .MyButton{padding: 10px;cursor: pointer;
+  font-size: 18px;background-color: #fff;
+  color: #75c6cf;border: 2px solid #75c6cf;
+  border-radius: 10px;margin-left: 130px;
+  margin-top: 20px;outline: none;
+}
+.responsive form .MyButton:hover{background-color: #75c6cf;color: #fff}
+.display-container .mySlides {display:none}
+.display-container img{width: 100%;height: 450px;}
+.display-container .slidebuttons .leftButton ,.display-container .slidebuttons .rightButton {
+  cursor: pointer;padding: 10px;
+  background-color: #000;color: white;
+  font-size: 18px;transition: 0.6s ease;
+  border-radius: 5px;width:18px;
+  margin-top: 30px;margin-bottom: 50px;
+}
+.display-container .slidebuttons .leftButton{float: left;}
+.display-container .slidebuttons .rightButton{float: right;}
+/*End Halls Page*/
+
+/*------------------------------------------------- */
+/*------------------------------------------------- */
+/*Start SERIVES Pages */
+/* Start SPA && Library Page*/
+.slideShow{margin-top: 120px;margin-bottom: 20px;overflow: hidden;}
+.slideShow h2{color: #f77cad;font-family:Tahoma;font-size: 25px;text-align: center;}
+.slideShow .mySlides{height: 450px;overflow: hidden;}
+.slideShow .mySlides img{width: 100%;height: 100%;}
+.slideShow .mySlide{height: 450px;overflow: hidden;}
+.slideShow .mySlide img{width: 100%;height: 100%;}
+.slideShow .text p{font-size: 20px;font-family: Tahoma;line-height: 1.3;color: #7f7f7f;text-align: center;}
+.slideShow .prev ,.slideShow .next {cursor: pointer;padding: 10px;
+  background-color: #000;color: white;
+  font-size: 18px;transition: 0.6s ease;
+  border-radius: 5px;width:15px;
+  margin-top: 30px;margin-bottom: 50px;
+}
+.slideShow .prev{float: left;}
+.slideShow .next{float: right;}
+/* End SPA && Library Page*/
+
+/*------------------------------------------------- */
+/*------------------------------------------------- */
+/*Start GOLF Page*/
+.header .golf-slider{height: 550px;overflow: hidden;}
+.header .golf-slider img{height: 100%;width: 100%;}
+.commun{height: auto;margin-top: 120px;overflow: hidden;}
+.commun .shape{background-color: #f3f4f5;
+  width:48%;float: left;padding: 8px;margin: 0;
+  text-align: center;overflow: hidden;
+}
+.commun .shape p{line-height: 1.6;font-size: 20px;
+  font-family: Tahoma;color:#7f7f7f;
+  margin-top: 30px;margin-bottom: 20px;
+}
+.commun .golfimg {float:left;width:49%;height:450px;margin: 0px;overflow:hidden;}
+.commun .secpart{background-color: #f3f4f5;width:47.6%;
+  height: 434px;float: left;padding: 8px;
+  margin: 0;text-align: center;overflow: hidden;
+}
+.commun .secpart h2{font-size: 30px;font-family: Tahoma;color: #f77cad;padding: 12px;}
+.commun .secpart p{line-height: 1.6;font-size: 20px;
+  font-family: Tahoma;color:#7f7f7f;
+  margin-top: 10px;margin-bottom: 20px;padding: 10px;
+}
+.commun .secimg{float:left;width:49.3%;height:450px;margin: 0px;overflow:hidden;}
+.commun .secimg img{width: 100%;height: 450px;}
+.commun .thirdpart{width:47.5%;height:450;
+  padding: 10px;margin: 0;text-align: center;
+  background-color: #f3f4f5;float:left;
+}
+.commun .thirdpart h2{font-size: 28px;font-family: Tahoma;color: #f77cad;padding: 12px;}
+.commun .thirdpart p{line-height: 1.6;font-size: 20px;
+  font-family: Tahoma;color:#7f7f7f;
+  margin-bottom: 20px;padding: 9px;
+ }
+.commun .thirdimg{float:left;height:489px;width: 49%;overflow:hidden;}
+.commun .thirdimg img{width: 100%;height: 100%;}
+.commun .fourth-part{width:47.6%;height:433px;
+  padding: 8px;background-color: #f3f4f5;
+  float:left;margin-bottom: 100px;
+}
+.commun .fourth-part h2{font-size: 28px;font-family: Tahoma;color: #f77cad;padding: 12px;}
+.commun .fourth-part p{line-height: 1.6;font-size: 20px;
+  font-family: Tahoma;color:#7f7f7f;
+  margin-bottom: 20px;padding: 9px;
+}
+.commun .fourth-img{float:left; width:49.2%;height: 450px;overflow:hidden;}
+.commun .fourth-img img{width: 100%;height: 450px;}
+/*End GOLF Page*/
+
+/*-------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Start GYM Page */
+.div2{margin-top: 150px;margin-bottom: 30px;text-align: center;overflow: hidden;}
+.div2 .m{font-size: 35px;color: #f77cad;font-family: Tahoma;}
+.div2 hr{width: 150px;text-align: center;border: 1px solid #75c6cf;}
+.div2 .motivate {font-family: Tahoma;font-size: 20px;line-height: 1.5;color: #7f7f7f;text-align:center;}
+.video{height: 650px;border-bottom: 2px solid #000;overflow: hidden;}
+.video .video1{width: 100%;}
+.div3 .about{font-family:Tahoma;font-size: 22px;color: #7f7f7f;
+  text-align: center;margin-top: 80px;
+  margin-bottom: 40px;line-height: 1.5;
+}
+/*End GYM Page */
+
+/*-------------------------------------------------- */
+/* -------------------------------------------------- */
+/* Start History Page */
+.header .history-slider{overflow: hidden;}
+.header .history-slider img{height: 550px;width: 100%;}
+.commun{margin-top: 100px;margin-bottom: 100px;overflow: hidden;}
+.commun .history-sec1{width: 48%;float: left;overflow: hidden;}
+.commun .history-sec1 h2{color: #f77cad;margin-left: 20px;
+  font-size: 40px;text-align: center;font-family: Tahoma;
+}
+.commun .history-sec1 hr{width: 250px;border: 1px solid #75c6cf;text-align: center;}
+.commun p{line-height: 1.6;font-size: 20px;font-family: Tahoma;
+  color:#7f7f7f;margin-top: 30px;
+  margin-bottom: 20px;margin-left: 20px;
+}
+.history-img1{height: 500px;float:left;
+  margin-top: 20px;margin-left: 23px;
+  width: 50%;overflow: hidden;
+}
+.history-img1 img{width: 100%;height: 500px;}
+.history-img2{width: 50%;margin-top: 15px;margin-left: 23px;
+  height: 500px;float: left;overflow: hidden;
+}
+.history-img2 img{height: auto;float:left;margin-top: 10px;height: 500px;width: 100%;}
+/* End History Page */
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Start Register Page */
+.slideshow-container{overflow: hidden;}
+.slideshow-container img{height: 100%;width: 100%;}
+.header .registeNav{height: 90px;}
+.header .registeNav button{background: none;color: #000;border: 0;outline: none;font-size: 16px;}
+.header .registeNav button:hover{color: #f77cad;opacity: 0.8;cursor: pointer;}
+.form-registe{background-image: url('../images/home_images/booking/ban222.jpg');background-repeat: no-repeat;width: 100%;background-size: cover;height: 100%;}
+.form-registe form{margin-top: 90px;}
+.form-registe label{display: block;color: #75c6cf;font-size: 20px;font-family: Tahoma;}
+.form-registe input{outline: none;width: 30%;
+  background: #fff;color:#75c6cf;padding: 10px;
+  font-size: 14px;border: 1px solid #E7E7E7;
+}
+.form-registe .details{width: 50%;}
+.form-registe .first .details{padding-top: 20px;width: 50%;}
+.form-registe .details .nam,.form-registe .details .nam1{
+  float: left;margin-bottom: 25px;margin-top: 15px;width: 100%;
+}
+.form-registe .main2 .details{width: 50%;padding: 20px;}
+.form-registe .main2 .details label{padding-bottom: 20px;}
+.form-registe .check .details{margin-top: 20px;}
+.form-registe .check .checktime{margin-top: 20px;}
+.form-registe .details .rtype{outline: none;width: 32%;background: #fff;color: #4B4B4B;
+  padding: 8px;margin-top: 20px;margin-bottom: 20px;
+  font-size: 14px;border: 1px solid #E7E7E7;float: center;
+}
+.button{float:center;width: 20%;height: 60px;margin-bottom: 80px;margin-top: 50px;}
+.button input[type="submit"]{outline:none;padding:20px;width:100%;
+	text-transform:uppercase;font-size:18px;color:#75c6cf;
+	background:#fff;border:1px solid #75c6cf;cursor:pointer;
+}
+.button input[type="submit"]:hover{color:#fff;background:#75c6cf;}
+/* End Register Page*/
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* Start Footer Section*/
+.footer{background-color: #262626;padding: 70px;overflow: hidden;}
+.footer form{overflow: hidden;}
+.footer form .form{overflow: hidden;}
+.footer form .first{width: 48%;float: left;}
+.footer form label{display: block;color: #6f6f6f;
+  font-size: 20px;font-family: Tahoma;margin: 15px 28px;
+}
+.footer form input{width: 80%;padding: 14px;border: 0;
+  margin-bottom: 10px;margin-left: 20px;
+  color: #75c6cf;border-radius: 5px;
+}
+.footer form textarea{width: 80%;height: 227px;
+  margin-bottom: 10px;margin-left: 30px;padding: 15px;
+  border: 0;color: #75c6cf;border-radius: 5px;
+}
+.footer form input[type="submit"]{color: #f8f8f8;border-radius: 15px;margin-top: 15px;
+  margin-right: 50px;width:25%;float: right;padding: 10px 20px;
+  background-color: #75c6cf;font-size: 20px;font-family: Tahoma;
+}
+.footer form input[type="submit"]:hover{background-color: #fff;color: #75c6cf;}
+/* End Footer Section */
